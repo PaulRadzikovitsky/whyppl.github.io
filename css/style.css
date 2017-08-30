@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'ArvoBold';
+	src: url('ArvoBold.eot');
+	src: url('ArvoBold.eot?#iefix') format('embedded-opentype'),
+		url('ArvoBold.woff') format('woff'),
+		url('ArvoBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ArvoRegular';
+	src: url('ArvoRegular.eot');
+	src: url('ArvoRegular.eot?#iefix') format('embedded-opentype'),
+		url('ArvoRegular.woff') format('woff'),
+		url('ArvoRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+	background-color: #f3f5f7;
+}
+.heading{
+	margin-bottom: 10rem;
+	margin-top: 4.5rem;
+	font-family: 'ArvoBold';
+	text-align: center;
+	color: #3b3f6a;
+}
+
+
+
+
+.img{
+	
+		text-align: center;
+		height: 15rem;
+}
+.text{
+	text-align: center;
+	
+	margin-top: 3rem;
+	font-family: 'ArvoRegular';
+	font-size: 1.8rem;
+	color: #3b3f6a;
+}
+.descr{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #686c8a;
+	margin-top: 2rem;
+}
+
+@media screen and (max-width: 1110px)
+{
+	.text. .descr{
+		margin-top: 1rem;
+	}
+	.descr{
+		margin-bottom: 2rem;
+	}
+}
